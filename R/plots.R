@@ -183,7 +183,7 @@ plotClarkeGrid <- function(referenceVals, testVals,
     theme(legend.position="none") +
     ggtitle(title) +
     xlab(xlab) +
-    ylab(ylab)
+    ylab(ylab)+coord_cartesian(ylim=c(0, max(data$test)+50),xlim=c(0,max(data$ref)+50))
 
   ceg
 
@@ -405,7 +405,7 @@ plotParkesGrid <- function(referenceVals, testVals, type=1,
     theme(legend.position="none") +
     ggtitle(title) +
     xlab(xlab) +
-    ylab(ylab)
+    ylab(ylab)+coord_cartesian(ylim=c(0, max(data$test)+50),xlim=c(0,max(data$ref)+50))
 
   peg
 
