@@ -1,9 +1,9 @@
 Package: ega
 Title: Error Grid Analysis
-Version: 1.0.1
+Version: 1.0.1x
 Authors@R: c(
-    person("Daniel", "Schmolze",
-    email="ega@schmolze.com", role=c("aut", "cre"))
+    person("Tony", "Jiang",
+    email="nic.cns.ucla@gmail.com", role=c("aut", "cre"))
     )
 Maintainer: Daniel Schmolze <ega@schmolze.com>
 Description: Functions for assigning Clarke or Parkes (Consensus) error grid
@@ -14,8 +14,8 @@ Suggests: knitr
 License: MIT + file LICENSE
 LazyData: true
 VignetteBuilder: knitr
-Packaged: 2015-02-19 21:38:05 UTC; daniel
-Author: Daniel Schmolze [aut, cre]
+Packaged: 2016-02-29 02:36:00 EST; Tony
+Author: Tony Jiang [aut, cre]
 NeedsCompilation: no
-Repository: CRAN
-Date/Publication: 2015-02-19 22:51:01
+Repository: GitHub
+Date/Publication: 2016-02-29 02:35:00 PM
